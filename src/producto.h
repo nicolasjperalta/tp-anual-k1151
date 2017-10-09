@@ -4,9 +4,9 @@
 struct Producto
 {
     int IDProducto;
-    char Descripcion[50];
+    char Descripcion[128];
     int CantidadDeUnid;
     float Peso;
-}
+};
 
 #endif
