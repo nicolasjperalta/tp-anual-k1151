@@ -9,4 +9,9 @@ struct Producto
     float Peso;
 };
 
+struct Nodo
+{
+    Producto data;
+    struct Nodo *sgte;
+};
 #endif
